@@ -1,0 +1,164 @@
+.singleRoute {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 30px 0;
+    width: 100%;
+}
+
+
+.product__image img {
+    width:  350px;
+    height: 400px;
+}
+
+.product__rating {
+    margin-bottom: 10px;
+}
+
+.product__rating svg {
+    color: gold;
+}
+
+
+.product__title {
+    margin-bottom: 10px;
+    color: red;
+}
+
+.send {
+    margin-bottom: 10px;
+}
+
+.product__price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.product__monthly {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 8px;
+    width: 100%;
+    background-color: #eee;
+    height: 50px;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.product__monthly span {
+    display: inline-block;
+    background-color: var(--bg-gold);
+    font-size: 18px;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+.product__btns {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}   
+
+.btnOne {
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: var(--bg-py);
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: .5s;
+    padding: 10px;
+}
+
+.btnOne:hover {
+    background-color: #085adf;
+    cursor: pointer;
+}
+
+.btnTwo {
+    width: 50%;
+    height: 50px;
+    border: 1px solid var(--bg-py);
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: .5s;
+    color: var(--bg-py);
+}
+
+.btnTwo:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 774px) {
+    .singleRoute {
+        grid-template-columns: 1fr;
+    }
+
+    .product__image {
+        margin: auto;
+    }
+
+    .btnOne {
+        font-size: 20px;
+    }
+
+    .btnTwo {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .product__image img {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 866px) {
+    .btnTwo {
+        font-size: 18px;
+    }
+    .btnOne {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+   .product__image img {
+    margin: 0;
+    width: 250px;
+    height: 300px;
+   }
+}
+
+@media screen and (max-width: 794px) {
+    .btnOne {
+        font-size: 17px;
+    }
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .product__btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    .product__btns button {
+        margin:  auto;
+    }
+}

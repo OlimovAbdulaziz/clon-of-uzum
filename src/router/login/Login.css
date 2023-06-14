@@ -1,0 +1,80 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+}
+
+.login-container {
+    padding: 35px ;
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.login-container h5 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.login-container h3 {
+    color: #555;
+}
+
+.login-container input {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(247, 245, 245);
+    font-size: 20px;
+    text-indent: 20px;
+    border-radius: 10px;
+}
+
+.login-container input::placeholder {
+    font-size: 20px;
+    color: black;
+}
+
+.login-container button {
+    width: 95%;
+    margin: auto;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--bg-py);
+}
+
+
+.login-container font,
+.login-container h4 {
+    text-align: center;
+}
+
+
+.login-container span {
+    color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .login-container {
+        border: none;
+        padding: 10px;
+    }
+
+}

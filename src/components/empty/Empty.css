@@ -1,0 +1,20 @@
+.empty-container {
+    text-align: center;
+}
+
+.empty-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.empty-container button {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--bg-py);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}

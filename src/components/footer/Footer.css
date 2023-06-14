@@ -1,0 +1,84 @@
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+
+.footer__wrapper .download {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer__wrapper .download div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.google__play svg {
+    color: red;
+}
+
+.footer__wrapper .icons {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.footer__item {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.download,
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons {
+    margin-left: -35px;
+}
+
+
+.footer__wrapper font {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 790px) {
+    .footer__wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .icons {
+        margin-left: -25px;
+    }
+
+    .download div {
+        margin-top: 10px;
+    }
+
+    .footer__wrapper li:last-child {
+        margin-bottom: 30px;
+    }
+}
