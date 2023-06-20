@@ -7,9 +7,12 @@ import { useLocation } from 'react-router-dom'
 
 function Navbar() {
     const location = useLocation()
-    console.log(location.pathname);
 
     if (location.pathname === "/login") {
+        return <></>
+    }
+    
+    if (location.pathname === "/admin") {
         return <></>
     }
 

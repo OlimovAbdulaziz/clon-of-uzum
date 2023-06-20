@@ -8,6 +8,7 @@ import Login from './router/login/Login';
 import Chart from './router/chart/Chart';
 import SingleRoute from './router/singleRoute/SingleRoute';
 import Scroll from './components/scroll/Scroll';
+import Admin from './router/admin/Admin';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,8 @@ function App() {
         <Route path='/wishlist' element={<Wishlist />} />
         <Route path='/login' element={<Login />} />
         <Route path='/chart' element={<Chart />} />
-        <Route path='/product/:id' element={<SingleRoute />} /> 
+        <Route path='/admin' element={<Admin />} />
+        <Route path='/product/:id' element={<SingleRoute />} />
       </Routes>
       <Footer />
     </div>

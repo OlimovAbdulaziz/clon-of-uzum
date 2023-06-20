@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import HeartSlice from './heart'
+import heartSlice from './heart'
+import cartSlice from './cart'
 
 export const store = configureStore({
     reducer: {
-        heart: HeartSlice
+        heart: heartSlice,
+        cart: cartSlice
     }
 })

@@ -13,14 +13,14 @@ import { Navigation } from "swiper";
 function Slider() {
   return (
     <div className='container'>
-        <div className="slider__container">
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-            <SwiperSlide><img src={bg1} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={bg2} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={bg3} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={bg4} alt="" /></SwiperSlide>
-          </Swiper>
-        </div>
+      <div className="slider__container">
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide><img src={bg1} alt="" /></SwiperSlide>
+          <SwiperSlide><img src={bg2} alt="" /></SwiperSlide>
+          <SwiperSlide><img src={bg3} alt="" /></SwiperSlide>
+          <SwiperSlide><img src={bg4} alt="" /></SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   )
 }
