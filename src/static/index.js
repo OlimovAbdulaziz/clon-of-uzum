@@ -126,15 +126,5 @@ export const DATA2 = [
         id: 15,
         url: img15,
         title: "Oziq-ovqat mahsulotlari"
-    },
-    {
-        id: 16,
-        url: img16,
-        title: "Maishiy kimyoviy moddlar va shaxsiy gigiyena"
-    },
-    {
-        id: 17,
-        url: img17,
-        title: "Kanselyariya tovarlari"
-    },
+    }
 ]
