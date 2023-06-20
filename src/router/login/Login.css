@@ -101,6 +101,10 @@
         width: 70%;
     }
 
+    .login-container input {
+        font-size: 17px;
+    }
+
     .login-container input::placeholder {
         font-size: 17px;
     }
