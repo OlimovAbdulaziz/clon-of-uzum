@@ -15,6 +15,7 @@
     height: 500px;
     border: 1px solid black;
     border-radius: 10px;
+    text-align: center;
 }
 
 .login-container h5 {
@@ -77,4 +78,32 @@
         padding: 10px;
     }
 
+    .login-container h5 {
+        font-size: 14px;
+    }   
+
+    .login-container h4 {
+        font-size: 13px;
+    }
+
+    
+    .login-container h3 {
+        font-size: 16px;
+    }
+
+    
+    .login-container h2 {
+        font-size: 18px;
+    }
+
+    .login-container button {
+        font-size: 17px;
+        width: 70%;
+    }
+
+    .login-container input::placeholder {
+        font-size: 17px;
+    }
+    
+    
 }
